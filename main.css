@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+header{
+    display: flex;  
+    justify-content: space-around;
+    padding: -35px;
+    background-color: #000000;
+    color: white;
+    
+    
+}
+header img{
+    width: 233px;
+}
+.menu{
+    display: flex;
+    gap: 30px;  
+    align-items: center;
+    
+}
+.menu li{
+    display: inline;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+.menu li a{
+    color: white;
+   font-size: 32px;
+   font-family: 'Sarala', sans-serif;
+}
+
+.container{
+    margin-bottom: 58px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+   
+}
+.container img{
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+.container h2{
+    margin-left: 140px;
+    margin-top: -412px;
+    color: white;
+}
+section p{
+    padding: 7px;
+    margin-left: 65px;
+    margin-top: 25px;
+    color: white;
+    max-width: 38%;
+    text-align: left;
+    margin-bottom: 22px;
+} 
+.botao,
+.botao-xixara,
+.botao-cafe,
+.contato{
+    background-color: #B1852C;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-left: 8%;
+    cursor: pointer;
+}
+  
+
+.botao-xixara{
+   margin-left: 668px;
+    margin-top: 263px;
+    width: 320px;
+}
+.botao-cafe{
+    margin-left: 668px;
+    margin-top: 108px;
+    width: 320px;
+}
+#tipo-cafe{
+    display: flex;
+    margin-top: 106px;
+    padding-left: 63px;
+}
+
+
+#tipo-cafe article img{
+    display: flex;
+    width: 150px;
+    margin: 0 15px;
+    padding: 25px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-left: 106px;
+    
+   
+}
+#contato .container-contato{
+    display: block;
+    margin-top: 126px;
+    font-family: 'Sarala', sans-serif;
+}
+.container-contato h2{
+    margin-left: 106px;
+    margin-bottom: 18px;
+}
+form input,
+form textarea{
+    display: block;
+    width: 320px;
+    margin-bottom: 18px;    
+    margin-left: 106px;
+    padding: 15px;
+    border: 2px solid #cea95f;
+    border-radius: 5px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+input:focus, textarea:focus{
+    outline-color: #B1852C;
+}
+#coffe{
+    display: flex;
+    width: auto;
+    margin: 0 auto;
+    padding: 8px ;
+    margin-top: 111px;
+}
+
+#coffe article p{
+    display: flex;
+    color: #A3A3A3;
+    font-family: 'Sarala', sans-serif;
+    align-content: flex-start;
+    max-width: 75%;
+}
+ 
+#coffe article h3{
+   display: flex;
+   margin-top: 35px;
+   justify-content: center;
+    
+}
+#coffe article img{
+    display: flex;
+    width: auto;
+    height: 318px;
+    margin-left: 30px;
+    
+   
+}
+.footer{
+    background-color: #B1852C; 
+    color: white;
+    display: flex;
+    height: 80px;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 111px;
+  }
