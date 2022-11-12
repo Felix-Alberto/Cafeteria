@@ -103,8 +103,7 @@ section p{
 }
 
 .shortcode-title .light-title{
-	font-weight: 700;
-	
+	font-weight: 700;	
 	color: #000000;
 	position: relative;
 	display: inline-block;
@@ -121,7 +120,7 @@ section p{
 .shortcode-title .light-title:after{
 	content: '';
 	width: 50%;
-	height: 2px;
+	height: 3px;
 	background-color:#af732b;
 	position: absolute;
 	bottom: 0;
