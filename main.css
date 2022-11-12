@@ -34,11 +34,17 @@ header img{
     
 }
 .menu li a{
-    color: white;
+   color: white;
    font-size: 32px;
    font-family: 'Sarala', sans-serif;
+   
 }
-
+.menu li .home{
+    color: #cea95f;
+}
+.menu li a:hover{
+    color: #B1852C;
+ }
 .container{
     margin-bottom: 58px;
     font-family: 'Sarala', sans-serif;
@@ -82,7 +88,54 @@ section p{
     margin-left: 8%;
     cursor: pointer;
 }
-  
+ #xicara{
+     margin-top: 160%;
+ }
+ #conhecer{
+     margin-top: 40%;
+ }
+
+
+
+
+.shortcode-title{
+	text-align: center;
+}
+
+.shortcode-title .light-title{
+	font-weight: 700;
+	
+	color: #000000;
+	position: relative;
+	display: inline-block;
+    padding-bottom: 15px;
+    /*font-size: 29px;
+    padding-top: 20px;
+    margin: 0 0 4px 0;
+    background-size: 25px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-transform: capitalize;*/
+}
+
+.shortcode-title .light-title:after{
+	content: '';
+	width: 50%;
+	height: 2px;
+	background-color:#af732b;
+	position: absolute;
+	bottom: 0;
+	left: 25%; 
+}
+
+
+
+
+
+
+
+
+
 
 .botao-xixara{
    margin-left: 668px;
