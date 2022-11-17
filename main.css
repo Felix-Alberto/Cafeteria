@@ -15,8 +15,7 @@ header{
     padding: -35px;
     background-color: #000000;
     color: white;
-    
-    
+       
 }
 header img{
     width: 233px;
@@ -30,15 +29,21 @@ header img{
 .menu li{
     display: inline;
     justify-content: space-between;
-    padding: 16px;
+    padding: 36px;
     
 }
 .menu li a{
-    color: white;
+   color: white;
    font-size: 32px;
    font-family: 'Sarala', sans-serif;
+   
 }
-
+.menu li .home{
+    color: #cea95f;
+}
+.menu li a:hover{
+    color: #B1852C;
+ }
 .container{
     margin-bottom: 58px;
     font-family: 'Sarala', sans-serif;
@@ -82,10 +87,39 @@ section p{
     margin-left: 8%;
     cursor: pointer;
 }
-  
+ #xicara{
+     margin-top: 160%;
+ }
+ #conhecer{
+     margin-top: 40%;
+ }
+
+.shortcode-title{
+	text-align: center;
+}
+
+.shortcode-title 
+.light-title{
+	font-weight: 700;	
+	color: #000000;
+	position: relative;
+	display: inline-block;
+    padding-bottom: 15px;
+   }
+
+.shortcode-title 
+.light-title:after{
+	content: '';
+	width: 50%;
+	height: 3px;
+	background-color:#af732b;
+	position: absolute;
+	bottom: 0;
+	left: 25%; 
+}
 
 .botao-xixara{
-   margin-left: 668px;
+    margin-left: 668px;
     margin-top: 263px;
     width: 320px;
 }
@@ -100,7 +134,10 @@ section p{
     padding-left: 63px;
 }
 
-
+.horizontal{
+   margin-top: 66px;
+   margin-left: 42%;
+}
 #tipo-cafe article img{
     display: flex;
     width: 150px;
@@ -110,8 +147,8 @@ section p{
     border-radius: 5px;
     margin-left: 106px;
     
-   
 }
+
 #contato .container-contato{
     display: block;
     margin-top: 126px;
@@ -133,7 +170,7 @@ form textarea{
 }
 form textarea{
     resize: none;
-    height: 180px;
+    margin-right: 15px;
 }
 input:focus, textarea:focus{
     outline-color: #B1852C;
@@ -153,6 +190,9 @@ input:focus, textarea:focus{
     align-content: flex-start;
     max-width: 75%;
 }
+.coffe-passado{
+    margin-right: 17px;
+}
  
 #coffe article h3{
    display: flex;
@@ -165,7 +205,6 @@ input:focus, textarea:focus{
     width: auto;
     height: 318px;
     margin-left: 30px;
-    
    
 }
 .footer{
